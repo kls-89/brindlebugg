@@ -1,8 +1,3 @@
-// TODO:
-// Fix styling
-// Build production and deploy to web.
-
-
 import React from 'react';
 import { Grid } from "@material-ui/core";
 import Sound from '../sound/Sound';

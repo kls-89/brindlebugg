@@ -78,7 +78,7 @@ export default function CustomizedDialogs() {
             I've been wanting to capture some of the most distinct and heartwarming sounds of our sweet brindle bugg, and this year, Kaya offered to get in the studio to make it happen!
           </Typography>
           <Typography gutterBottom>
-            The <strong>Brindle Bugg Soundboard</strong> is a collection 14 of Kaya's greatest hits including: "LET ME OUT, " "Helicopter Ears," "Havin' Chips," and more!
+            The <strong>Brindle Bugg Soundboard</strong> is a collection of 14 of Kaya's greatest hits including: "LET ME OUT," "Helicopter Ears," "Havin' Chips," and more!
           </Typography>
           <Typography gutterBottom>
             These are pure Kaya sounds recorded periodically over the past few months (<em>no songs due to an ongoing copyright dispute with SadieCouture™️</em>).
@@ -94,8 +94,8 @@ export default function CustomizedDialogs() {
           </Typography>
         </DialogContent>
         <DialogActions>
-          <Button variant="contained"  fullWidth color="primary" autoFocus onClick={handleClose}>
-          🐽 Close 🐽
+          <Button variant="contained" fullWidth color="primary" autoFocus onClick={handleClose}>
+            🐽 Close 🐽
           </Button>
         </DialogActions>
       </Dialog>

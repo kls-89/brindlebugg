@@ -2,7 +2,7 @@ import React from 'react';
 import useSound from 'use-sound';
 import { Button, Card, CardContent, CardActions, Typography } from '@material-ui/core';
 const Sound = ({ filename, title, soundId, description }) => {
- 
+
   const [play, { isPlaying, stop }] = useSound(filename, {
     sprite: {
       angryBugg: [0, 4200],
@@ -19,12 +19,12 @@ const Sound = ({ filename, title, soundId, description }) => {
       tippyTaps: [69000, 5000],
       thirstyBugg: [28000, 7000],
       woeIsBugg: [47000, 7000],
-      "_sprite": [0,0]
+      "_sprite": [0, 0]
     }
   });
 
   return (
-    <Card style={{backgroundColor: "#eff"}}variant="outlined">
+    <Card style={{ backgroundColor: "#eff" }} variant="outlined">
       <CardContent>
         <Typography variant="body1">
           {isPlaying ? description : title}
